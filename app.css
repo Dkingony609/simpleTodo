@@ -1,0 +1,81 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  padding: 20px;
+}
+
+main {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.container {
+  background-color: white;
+  height: 100%;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#add-todo {
+  border-width: 0;
+  padding: 5px;
+  width: 10%;
+  background-color: rebeccapurple;
+  color: white;
+  outline: none;
+}
+
+#add-todo:hover {
+  background-color: lightgrey;
+  color: rebeccapurple;
+  transition: 0.5s ease-out;
+}
+
+.display-content {
+  display: flex;
+}
+
+#trash-task {
+  background-color: white;
+  border-width: 0;
+  outline: none;
+}
+
+i {
+  color: crimson;
+}
+
+i:hover {
+  color: red;
+}
+
+#task-list {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+#task-list li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#task-list li:hover {
+  background-color: cornsilk;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
